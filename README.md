@@ -35,15 +35,15 @@ Manually Move items was used during error recovery.
 
 This action allowed users to load items onto the system.
 
-The interface hides a lot of complexity. For example, users can select between multiple item types (each with their own fields), multiple target instruments (each with their own layout and constraints), and even bulk-load or bulk-unload multiple items.
+The interface hides a lot of complexity. For example, users can select from multiple item types (each with their own fields) and multiple target instruments (each with their own layouts and constraints). Users could even load or unload multiple items in bulk.
 
-The design is modular and extensible: the interface has a common layout and appearance regardless of which optinos you select.
+The design is modular and extensible: the interface has a common layout and appearance regardless of which options you select.
 
 ![Load and Unload Items](./screenshots/monomer/load_and_unload_items.png)
 
 ### Schedule Now
 
-This action allowed users to schedule biological tasks onto the system. Users could specify parameters and schedule the task for now or defer it to later.
+This action allowed users to schedule biological "routines" (our name for a unit of work) onto the system. Users could specify parameters and schedule the routine for now or defer it to later.
 
 Note: the action was later renamed to Schedule Routines, but the screenshot shows the old text.
 
